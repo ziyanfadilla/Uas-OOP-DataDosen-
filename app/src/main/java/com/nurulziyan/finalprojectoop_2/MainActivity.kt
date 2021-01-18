@@ -15,5 +15,12 @@ class MainActivity : AppCompatActivity() {
         btn_ziyan.setOnClickListener {//pindah activity
             startActivity(Intent(this,ZiyanActivity::class.java))
         }
+        profile.setOnClickListener {
+            startActivity(Intent(this, ProfilActivity::class.java))
+        }
+        Logout.setOnClickListener {
+            finish()
+        }
+
     }
 }

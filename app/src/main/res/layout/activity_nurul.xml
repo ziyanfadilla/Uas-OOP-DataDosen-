@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bacg"
     tools:context=".NurulActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,31 +18,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Id"/>
+            android:text="Id"
+            android:textColor="@color/white"/>
         <EditText
             android:id="@+id/et_id"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@color/white"/>
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Nama"/>
+            android:text="Nama"
+            android:textColor="@color/white"/>
         <EditText
             android:id="@+id/et_nama"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@color/white"/>
         <TextView
             android:id="@+id/tv_nim"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Email"/>
+            android:text="Email"
+            android:textColor="@color/white"/>
         <EditText
             android:id="@+id/et_nim"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@color/white"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,21 +59,25 @@
             android:id="@+id/btn_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="add"/>
+            android:text="add"
+            android:background="#EFE9E9"/>
         <Button
             android:id="@+id/btn_update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Update"/>
+            android:text="Update"
+            android:background="#CFCBCB"/>
         <Button
             android:id="@+id/btn_delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Delete"/>
+            android:text="Delete"
+            android:background="#AEA7A7"/>
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_user"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"/>
+        android:orientation="vertical"
+        />
 </LinearLayout>
